@@ -7,5 +7,5 @@ export const AppContainer = styled.div`
 
 export const EmojiContainer = styled.div`
     width: 100vw;
-    height: 50vh;
+    height: ${props => props.isPristine ? '100vh' : '50vh'};
 `
